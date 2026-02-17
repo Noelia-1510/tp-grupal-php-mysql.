@@ -1,0 +1,134 @@
+/* RESET BÁSICO */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* FUENTE Y COLORES */
+body {
+  background-color: #121212;
+  color: #eee;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+}
+
+/* TÍTULOS */
+h1, h2, h3 {
+  color: #e91e63;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* TABLAS */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(233, 30, 99, 0.4);
+}
+
+thead {
+  background-color: #e91e63;
+  color: #fff;
+}
+
+th, td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #333;
+  text-align: left;
+}
+
+tbody tr:hover {
+  background-color: #2a2a2a;
+}
+
+/* RESPONSIVE TABLA */
+@media (max-width: 600px) {
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+
+  thead {
+    display: none;
+  }
+
+  tbody tr {
+    margin-bottom: 15px;
+    background: #1e1e1e;
+    padding: 15px;
+    border-radius: 8px;
+  }
+
+  td {
+    padding-left: 50%;
+    position: relative;
+  }
+
+  td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 15px;
+    top: 12px;
+    font-weight: bold;
+    color: #e91e63;
+  }
+}
+
+/* BOTONES Y ENLACES */
+a, button {
+  background-color: #e91e63;
+  color: #fff;
+  padding: 8px 12px;
+  margin: 4px;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+a:hover, button:hover {
+  background-color: #ad1457;
+}
+
+/* FORMULARIOS */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 105, 180, 0.3);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #f48fb1;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: #2a2a2a;
+  color: #eee;
+  border: 1px solid #555;
+  border-radius: 5px;
+}
+
+/* MENSAJES */
+#form-message, .mensaje {
+  color: #ff80ab;
+  text-align: center;
+  margin-top: 10px;
+}
