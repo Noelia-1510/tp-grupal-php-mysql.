@@ -19,8 +19,8 @@ Para mantener un orden y facilitar el trabajo en equipo, cada integrante debe tr
 1. Clonar el repositorio con:
 
    ```bash
-   git clone https://github.com/Nannys-cmd/PHP-Grupo7.git
-   cd PHP-Grupo7
+   git clone https://github.com/Noelia-1510/tp-grupal-php-mysql..git
+   cd tp-grupal-php-mysql
    ```
 
 2. Cambiar a la rama asignada (ejemplo para Grace):
@@ -63,7 +63,7 @@ Para mantener un orden y facilitar el trabajo en equipo, cada integrante debe tr
 | Fernando | Fernandolgarcia.dev@gmail.com  | fernando     |
 | Grace    | soportegmg@gmail.com           | grace        |
 | Moni     | Monimuscio@gmail.com           | moni         |
-| Noelia   | Noeliasenriquez@gmail.com      | noelia       |
+|**Noelia**| Noeliasenriquez@gmail.com      | noelia       |
 | Daniela  | bastiasdany.84@gmail.com       | daniela      |
 
 ---
